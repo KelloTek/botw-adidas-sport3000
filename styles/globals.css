@@ -1,3 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "AdineuePRO";
+    src: url("../public/fonts/adineuePRO.TTF") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+  
+*{
+    font-family: AdineuePRO, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 b {
     color: white;
 }
+
+h1{
+    font-size: calc(100vw/30);
+}
+
+.embla {
+    overflow: hidden;
+}
+
+.embla__container {
+    display: flex;
+}
+
+.embla__slide {
+    flex: 0 0 50%;
+    min-width: 0;
+}
+
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
