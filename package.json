@@ -13,9 +13,7 @@
     "framer-motion": "^11.13.5",
     "next": "15.0.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-responsive-carousel": "^3.2.23",
-    "swiper": "^11.1.15"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",
