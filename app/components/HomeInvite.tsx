@@ -20,7 +20,7 @@ export default function HomeInvite() {
             </div>
 
             <div className="absolute bottom-28 left-5 w-[35%] p-5  rounded-2xl bg-yellow text-white text-center">
-              INVITE YOUR FRIENDS
+              <Link href="/invite">INVITE YOUR FRIENDS</Link>
             </div>
           </div>
         </div>
