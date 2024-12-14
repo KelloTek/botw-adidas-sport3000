@@ -9,7 +9,7 @@ interface Props {
   alt: string;
 }
 
-function CarouselImageComponent({ img, alt }: Props) {
+function CarouselImage({ img, alt }: Props) {
   const [isHovered, setIsHovered] = useState<boolean>(false);
   return (
     <SplideSlide>
@@ -31,4 +31,4 @@ function CarouselImageComponent({ img, alt }: Props) {
   );
 }
 
-export default CarouselImageComponent;
+export default CarouselImage;

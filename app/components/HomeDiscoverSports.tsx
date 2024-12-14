@@ -1,12 +1,12 @@
 "use client";
 import React from "react";
 import { carouselDiscoverImg } from "@/public/static";
-import CarouselImageComponent from "./CarouselImageComponent";
+import CarouselImage from "./CarouselImage";
 import { StaticImageData } from "next/image";
 import "@splidejs/react-splide/css";
 import { Splide} from "@splidejs/react-splide";
 
-function HomeDiscoverSportsComponent() {
+export default function HomeDiscoverSports() {
   return (
     <section className=" h-screen w-full">
       <div className="h-full w-full bg-gradient-to-b from-black to-gray py-12">
@@ -34,7 +34,7 @@ function HomeDiscoverSportsComponent() {
             >
               {carouselDiscoverImg.map(
                 (item: { id: number; img: StaticImageData; alt: string }) => (
-                  <CarouselImageComponent
+                  <CarouselImage
                     key={item.id}
                     id={item.id}
                     img={item.img}
@@ -49,8 +49,6 @@ function HomeDiscoverSportsComponent() {
     </section>
   );
 }
-
-export default HomeDiscoverSportsComponent;
 
 /**
  * {carouselDiscoverImg.map(

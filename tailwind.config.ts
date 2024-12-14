@@ -15,7 +15,7 @@ export default {
         'gray': '#666666',
       },
       backgroundImage: {
-        'fond': "url('/images/fond.jpg')"
+        'fond': "url('/images/fond.jpg')",
       }
     },
   },
