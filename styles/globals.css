@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "AdineuePRO";
-  src: url("../public/fonts/adineuePRO.TTF") format("truetype");
+  src: url("/fonts/adineuePRO.TTF") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
